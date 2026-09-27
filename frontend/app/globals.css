@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* UX4G styles must be loaded before Tailwind to allow proper cascade */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  :root {
+    /* Government-style light grey background */
+    --background: 220 20% 97%;
+    --foreground: 215 25% 10%;
+    
+    /* Clean white cards */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 10%;
+    
+    /* Deep navy government blue */
+    --primary: 215 90% 25%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Very light blue/grey secondary */
+    --secondary: 215 30% 95%;
+    --secondary-foreground: 215 25% 10%;
+    
+    --muted: 215 30% 95%;
+    --muted-foreground: 215 15% 45%;
+    
+    --accent: 215 90% 25%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Status colours */
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Neutral grey borders */
+    --border: 215 20% 85%;
+    --input: 215 20% 85%;
+    --ring: 215 90% 25%;
+    
+    /* Smaller, more institutional corner radius */
+    --radius: 0.5rem;
+    
+    /* Sidebar colours */
+    --sidebar-background: 215 90% 25%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 215 90% 25%;
+    --sidebar-accent: 0 0% 100%;
+    --sidebar-accent-foreground: 215 90% 25%;
+    --sidebar-border: 215 30% 35%;
+    --sidebar-ring: 215 90% 25%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  html.learner-viewport-lock,
+  html.learner-viewport-lock body {
+    overflow: hidden;
+  }
+}
+
+

@@ -1,0 +1,502 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4503
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 20 Tf
+23. TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Database Design) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 742.6774015748030706 Td
+(Topic: Database design) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 714.3309448818897636 Td
+(Database design is the process of creating a detailed data model for a database. It involves organizing data) Tj
+T* (according to a database model, often a relational model, to achieve high performance, efficiency, data) Tj
+T* (integrity, and scalability. Effective database design is crucial for the success of any data-driven application or) Tj
+T* (system, ensuring data consistency, reducing redundancy, and facilitating easy data retrieval and) Tj
+T* (manipulation.) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 615.1183464566928478 Td
+(Fundamentals of Database Design) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 586.7718897637794271 Td
+(Database design is the art and science of structuring data to meet specific business needs and application) Tj
+T* (requirements.) Tj
+T* (- Its primary goals include ensuring data integrity, minimizing data redundancy, optimizing query performance,) Tj
+T* (and providing flexibility for future modifications.) Tj
+T* (- A well-designed database forms the backbone of robust and scalable applications.) Tj
+T* (- Key concepts involve understanding entities, attributes, relationships, and the principles of data modeling.) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 445.0396062992125508 Td
+(Phases of Database Design) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 416.69314960629913 Td
+(Database design typically follows a structured lifecycle, moving from high-level requirements to detailed) Tj
+T* (physical implementation.) Tj
+T* (- **Requirements Analysis**: Understanding the user needs, business rules, and expected data usage. This) Tj
+T* (involves interviews, surveys, and documentation review.) Tj
+T* (- **Conceptual Design**: Creating a high-level data model, independent of any specific DBMS.) Tj
+T* (Entity-Relationship Diagrams \(ERDs\) are commonly used here. Focuses on 'what' data to store.) Tj
+T* (- **Logical Design**: Translating the conceptual model into a data model specific to the chosen DBMS \(e.g.,) Tj
+T* (relational, object-oriented\). This involves defining tables, columns, primary keys, foreign keys, and) Tj
+T* (relationships. Focuses on 'how' data is structured logically.) Tj
+T* (- **Physical Design**: Detailing the actual implementation of the database, including storage structures,) Tj
+T* (indexing strategies, partitioning, and security measures. Optimizing for performance and storage. Focuses on) Tj
+T* ('how' data is stored physically.) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 189.9214960629919915 Td
+(Data Modeling, ERDs, and Normalization) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 161.5750393700786844 Td
+(**Data Modeling** is the process of creating a visual representation of either a whole information system or) Tj
+T* (parts of it to communicate connections between data points and structures.) Tj
+T* (- **Entity-Relationship Diagrams \(ERDs\)** are graphical tools used in conceptual data modeling to represent) Tj
+T* (entities, their attributes, and relationships between them.) Tj
+T* (    - **Entity**: A real-world object or concept \(e.g., Student, Course\).) Tj
+T* (    - **Attribute**: A property or characteristic of an entity \(e.g., StudentID, CourseName\).) Tj
+T* (    - **Relationship**: An association between two or more entities \(e.g., a Student *enrolls in* a Course\).) Tj
+T* (- **Normalization** is a systematic process of organizing the columns and tables of a relational database to) Tj
+T* (minimize data redundancy and improve data integrity. It aims to eliminate undesirable characteristics like) Tj
+T* (insertion, update, and deletion anomalies.) Tj
+T* (- Common Normal Forms include 1NF, 2NF, 3NF, and BCNF, each building upon the previous one with stricter) Tj
+T* (rules.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+56.6929133858267775 -36.8501574803150334 Td
+(Comparison of Normal Forms) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+56.6929133858267775 -56.6926771653544392 Td
+(Normal Form) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+170.0787401574803255 -56.6926771653544392 Td
+(Rule) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+283.4645669291338663 -56.6926771653544392 Td
+(Benefit) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4028
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(First Normal Form \(1NF\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+170.0787401574803255 785.1970866141732586 Td
+(Eliminate repeating groups. Each column must contain atomic \(indivisible\) values. Each row is unique.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+283.4645669291338663 785.1970866141732586 Td
+(Basic structure, allows for primary key identification.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+56.6929133858267775 773.8585039370078675 Td
+(Second Normal Form \(2NF\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+170.0787401574803255 773.8585039370078675 Td
+(Must be in 1NF AND all non-key attributes must be fully functionally dependent on the primary key.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+283.4645669291338663 773.8585039370078675 Td
+(Reduces redundancy for composite primary keys.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+56.6929133858267775 762.5199212598424765 Td
+(Third Normal Form \(3NF\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+170.0787401574803255 762.5199212598424765 Td
+(Must be in 2NF AND eliminate transitive dependencies \(non-key attributes should not depend on other non-key attributes\).) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+283.4645669291338663 762.5199212598424765 Td
+(Significantly reduces data redundancy and update anomalies.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+56.6929133858267775 751.1813385826771992 Td
+(Boyce-Codd Normal Form \(BCNF\)) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+170.0787401574803255 751.1813385826771992 Td
+(Every determinant is a candidate key. Stricter than 3NF.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0 g
+283.4645669291338663 751.1813385826771992 Td
+(Handles some specific anomalies not caught by 3NF, especially with overlapping candidate keys.) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 683.1498425196850803 Td
+(Optimization and Advanced Concepts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 654.8033858267716596 Td
+(While normalization is key for data integrity, **denormalization** is sometimes applied to improve query) Tj
+T* (performance by strategically introducing redundancy, especially in data warehousing or reporting systems.) Tj
+T* (- **Indexing** involves creating data structures that improve the speed of data retrieval operations on a) Tj
+T* (database table. Indexes can significantly speed up search, sort, and join operations.) Tj
+T* (- **Data Integrity Constraints** \(e.g., Primary Key, Foreign Key, Unique, Check, Not Null\) are rules enforced) Tj
+T* (on data columns to limit the type of data that can be entered, ensuring accuracy and consistency.) Tj
+T* (- **Data Types** selection is crucial for efficient storage and performance \(e.g., using `INT` instead of) Tj
+T* (`VARCHAR` for numbers\).) Tj
+T* (- **Security** considerations involve defining user roles, permissions, encryption, and access controls to) Tj
+T* (protect sensitive data.) Tj
+T* (- **Scalability** and **Performance Tuning** are ongoing efforts. Design choices impact how well the) Tj
+T* (database handles increasing data volumes and user loads.) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 428.0317322834645211 Td
+(Summary) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+56.6929133858267775 399.6852755905511003 Td
+(Database design is a methodical process essential for creating efficient, reliable, and scalable data systems.) Tj
+T* (It progresses through requirements gathering, conceptual, logical, and physical design phases. Key principles) Tj
+T* (include data modeling using ERDs to represent entities and relationships, and normalization to reduce) Tj
+T* (redundancy and enhance data integrity. Advanced considerations like indexing, denormalization, and security) Tj
+T* (are vital for optimizing performance and ensuring data protection. A well-designed database is fundamental to) Tj
+T* (the success and maintainability of any application relying on data.) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.1.0)
+/CreationDate (D:20260522172645-00'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000008924 00000 n 
+0000010749 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004707 00000 n 
+0000004844 00000 n 
+0000008987 00000 n 
+0000009112 00000 n 
+0000009242 00000 n 
+0000009375 00000 n 
+0000009513 00000 n 
+0000009637 00000 n 
+0000009766 00000 n 
+0000009898 00000 n 
+0000010034 00000 n 
+0000010162 00000 n 
+0000010289 00000 n 
+0000010418 00000 n 
+0000010551 00000 n 
+0000010653 00000 n 
+0000010999 00000 n 
+0000011085 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <D40BF9DF44ADC149B3F9DF21E42778F0> <D40BF9DF44ADC149B3F9DF21E42778F0> ]
+>>
+startxref
+11189
+%%EOF
